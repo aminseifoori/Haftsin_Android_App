@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_mainviewback"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/back"
+        android:title="بازگشت"
+        />
+
+	<item 
+      android:icon="@drawable/menu"
+      android:orderInCategory="100" 
+      android:showAsAction="always">
+  	  <menu>
+        <item android:id="@+id/selfontsview" android:title="تغییر فونت نوشتار" />
+        <item android:id="@+id/sharecontent" android:title="به اشتراک گذاری متن" />      
+  	  </menu>
+	</item>
+</menu>

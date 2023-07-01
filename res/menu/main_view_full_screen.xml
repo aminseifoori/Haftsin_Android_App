@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<item   
+        android:id="@+id/action_fsback"
+        android:orderInCategory="100" 
+        android:showAsAction="always" 
+        android:icon="@drawable/back" 
+        android:title="Exit" />
+<item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/share"
+        android:title="رباره ما"
+        />
+
+</menu>
